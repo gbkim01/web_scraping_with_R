@@ -14,6 +14,6 @@
 
 ### **2_연도별청소년정책성과.R**
 
-- 청소년정책분석평가센터에서는 연도별 [청소년정책성과]{http://www.ypec.re.kr/modedg/contentsView.do?ucont_id=CTX000007&srch_menu_nix=t7W3a9w7}를 공개하고 있다. 
+- 청소년정책분석평가센터에서는 연도별 [청소년정책성과](http://www.ypec.re.kr/modedg/contentsView.do?ucont_id=CTX000007&srch_menu_nix=t7W3a9w7)를 공개하고 있다. 
 - 웹페이지 내부에 이미 마련되어 있는 17개 시도별 결과표 중에서, 사용자가 지도 위에 마우스를 올리면 해당지역의 점수만 따로따로 공개하는 구조인데 일괄적으로 정리되어 있지 않아 정책성과를 한눈에 파악하기 어려운 부분이 있다. 
 - rvest의 html_table()을 이용하여 17개 시도의 성과표를 전부 가져온 후, 원점수와 z.score를 분리하는 과정을 거쳐 표 하나로 정리하였다. 
